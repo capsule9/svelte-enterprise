@@ -11,7 +11,14 @@
       "@commitlint/config-conventional"
     ]
   },
-  "author": "Milo Kang",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capsule9/svelte-enterprise.git"
+  },
+  "author": "Milo Kang <milowebmaster@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/capsule9/svelte-enterprise/issues"
+  },
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
