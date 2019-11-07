@@ -1,0 +1,41 @@
+{
+  "name": "@capsule9/ui-button",
+  "version": "1.0.0-beta.1",
+  "description": "Svelte Material UI - Button",
+  "keywords": [
+    "svelte",
+    "svelte3",
+    "material-ui",
+    "material-design",
+    "material",
+    "svelte-components",
+    "sveltejs"
+  ],
+  "scripts": {
+    "prepare": "echo \"$(glob '**/node_modules' | lam -s '-I ' - | paste -s -d ' ' -) --no-source-map _style.scss bare.css\" | xargs sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capsule9/svelte-enterprise.git"
+  },
+  "author": "Milo Kang <milowebmaster@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/capsule9/svelte-enterprise/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@material/button": "^3.2.0",
+    "@material/elevation": "^3.1.0",
+    "@material/feature-targeting": "^3.1.0",
+    "@smui/common": "^1.0.0-beta.15",
+    "@smui/ripple": "^1.0.0-beta.17"
+  },
+  "devDependencies": {
+    "glob-cmd": "0.0.7",
+    "sass": "^1.23.1"
+  }
+}
